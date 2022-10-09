@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+    </style>
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container1">
+        <div class="landing_page">
+
+            <div class="landing_page_left">
+               
+                <div class="chamado">
+                    <h2>Uma <span style="text-decoration: underline; color: #b88c49">comunidade</span></h2>
+                    <h1>para amantes de café</h1>
+                    <h3>Cadastre-se e venha fazer parte</h3>
+                </div>
+                
+
+            </div>
+
+            <div class="landing_page_right">
+
+                <div class="container2">
+                    <a class="links" id="paralogin"></a>
+                    <a class="links" id="paracadastro"></a>
+                    <div class="menu">
+                        <p class="link"><a href="#paralogin">Logar</a></p>
+                        <p class="link"><a href="#paracadastro">Cadastrar</a></p>
+                    </div>
+                    <div class="content">
+                        
+                        <div id="cadastro">
+                            <form method="post" action=""> 
+                              <p> 
+                                <label for="nome_cad">Seu nome</label><br>
+                                <input type="text" id="nome_cad" name="nome_cad" placeholder="nome" required />
+                              </p>
+                               
+                              <p> 
+                                <label for="email_cad">Seu e-mail</label><br>
+                                <input type="email" id="email_cad" name="email_cad" placeholder="ricardogomes@live.com" required/> 
+                              </p>
+                               
+                              <p> 
+                                <label for="senha_cad">Sua senha</label><br>
+                                <input type="password" id="senha_cad" name="senha_cad" placeholder="1234" required/>
+                              </p>
+                               
+                              <p> 
+                                <input type="submit" value="Cadastrar"/> 
+                              </p>
+                               
+                        </div>
+
+                        <div id="login">
+                            <form method="post" action="">
+                                <p>
+                                <label for="name_login">Nome:</label><br>
+                                <input type="text" id="name_login" placeholder="ex: Augusto" required />
+                                </p>
+
+                                <p>
+                                <label for="pass_login">Senha:</label><br>
+                                <input type="password" id="pass_login" placeholder="ex: 12345" required />
+                                </p>
+
+                                <p>
+                                <input type="checkbox" id="manterlogado"  />
+                                <label for="manterlogado">Manter Logado</label>
+                                </p>
+                                <input type="submit" value="Entrar">
+                            </form>
+                        </div>
+
+                        
+                </div>
+
+            </div>
+
+        </div>
+
+    
+    </div>
+
+<footer>
+    <div class="footer_content">
+        <div class="footer_contato">
+        <h4>
+            Desenvolvido por: <a href="mailto:ricardogomes@live.com">Ricardo Gomes</a>
+        </h4>
+        </div>
+        <div class="footer_icons">
+            <a href="https://www.facebook.com/rickgsantos/"><img src="images/social_icons/facebook.png" /></a>
+            <a href="https://www.instagram.com/ricardoslourenco/"><img src="images/social_icons/instagram.png" /></a>
+            <a href="https://github.com/mudot"><img src="images/social_icons/github.png" /></a>
+        </div>
+        
+    </div>
+</footer>
+</body>
+</html>
